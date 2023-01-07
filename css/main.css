@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "jedi";
+  src: url(../fonts/Starjedi.ttf) format("truetype");
+}
+@font-face {
+  font-family: "jhol";
+  src: url(../fonts/Starjhol.ttf) format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  scroll-padding-top: 2rem;
+  list-style: none;
+  text-decoration: none;
+}
+*::selection {
+  color: #fff;
+}
+:root {
+  --main-color: #e7150e;
+  --bg-color: #fff;
+
+  --big-font: 4rem;
+  --h2-font: 2.24rem;
+  --p-font: 0.9rem;
+}
+body {
+  max-height: 100vh;
+  background-image: url("../img/starwars2.jpg");
+  font-family: "jedi";
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
